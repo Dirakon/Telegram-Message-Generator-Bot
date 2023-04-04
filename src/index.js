@@ -38,7 +38,7 @@ client.on('update', update => {
 
 
 async function startTelegram() {
-  await client.connectAndLogin()
+  await client.login()
   let startingWeek = 0
   let curUnixTime = Math.floor(new Date().getTime() / 1000)
   for (let i = startingWeek; i < 365 / 7; ++i) {
@@ -65,8 +65,6 @@ async function startTelegram() {
     })
     await new Promise(r => setTimeout(r, 100000));
   }
-  //
-  // ...
 }
 
 startTelegram().catch(console.error)

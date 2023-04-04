@@ -1,6 +1,9 @@
 # used DSL library
 /message-generator-dsl/
 
+# IDE
+.idea
+
 # purescript-specific files/folders
 /output/
 /.spago/
