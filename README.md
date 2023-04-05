@@ -14,11 +14,13 @@ Input for a message generator is inside a file `in.txt`. Rules and syntax for th
 * [npm](https://github.com/npm/cli)
 * [purescript](https://www.purescript.org/)
 * [spago](https://github.com/purescript/spago)
+* [tdlib](https://github.com/tdlib/td)
+* [Message-Generator-DSL](https://github.com/Dirakon/Message-Generator-DSL)
 
 ### Installing
 
 * Run `download_dsl.sh` to prepare the message generator subproject
-* Run `setup_td.sh` to prepare the message generator subproject
+* Run `setup_td.sh` to prepare the tdlib
 * Run `npm i` to install the dependencies
 
 ### Executing program
